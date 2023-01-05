@@ -98,3 +98,15 @@ footer {
     font-size: small;
 
 }
+.contrucao {
+    background-color: white;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem {
+    width: 50vw;
+    margin: 0.5em;
+}
