@@ -108,5 +108,6 @@ footer {
 }
 .imagem {
     width: 50vw;
+    max-width: 940px;
     margin: 0.5em;
 }
