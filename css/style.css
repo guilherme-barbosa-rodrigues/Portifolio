@@ -5,6 +5,7 @@
 :root {
     --fonte-padrao: "Inter" sans-serif;
     --branco: #fff;
+    --cinza: rgb(230, 230, 230);
     --cor-1: #eff0d5;
     --cor-2: #e0e0b6;
     --cor-3: #c4d4ab;
@@ -14,6 +15,17 @@
     --cor-dark-2:#15191C;
     --cor-azul-1:#0480DC;
 }
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 8px 16px;
+    background-color: var(--cinza);
+}
+.cabecalho__logo {
+    width: 40px;
+}
 body {
-    background-color: var(--cor-1);
+    background-color: var(--branco);
 }
