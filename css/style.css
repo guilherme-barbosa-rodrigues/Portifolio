@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+:root {
+    --fonte-padrao: "Inter" sans-serif;
+    --branco: #fff;
+    --cor-1: #eff0d5;
+    --cor-2: #e0e0b6;
+    --cor-3: #c4d4ab;
+    --cor-4: #87b091;
+    --cor-5: #171430;
+    --cor-dark: #1D232A;
+    --cor-dark-2:#15191C;
+    --cor-azul-1:#0480DC;
+}
+body {
+    background-color: var(--cor-1);
+}
